@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { PersonaComponent } from './persona/persona.component';
 import { PersonasComponent } from './personas/personas.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

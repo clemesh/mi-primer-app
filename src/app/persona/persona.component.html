@@ -1,4 +1,11 @@
-<p>{{persona}}</p>
+<p>Nombre: {{nombre}}
+Apellido: {{apellido}}
+Edad: {{getEdad()}}</p>
 
-<app-personas></app-personas>
-<app-personas></app-personas>
+<div (keyup)='0'>
+    <label>Repetidor: </label>
+    <input #entrada >
+
+    {{ entrada.value }}
+
+</div>
