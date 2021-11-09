@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class PersonasComponent  {
 
     texto = 'Listado de personas';
-    deshabilitar = true;
+    mensaje = 'persona no añadida'
+    deshabilitar = false;
+    personacrear(){
+      this.mensaje = 'persona añadida'
+    }
 
   }
 
