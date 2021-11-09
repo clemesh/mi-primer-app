@@ -7,6 +7,9 @@
             (click)="personacrear()">Agregar</button>
             {{mensaje}}
             <app-persona></app-persona>
+            <input type="text" class="form-control"
+            (input) = 'modificarTitulo($event)'>
+            {{titulo}}
         </div>
     </div>
 </div>
