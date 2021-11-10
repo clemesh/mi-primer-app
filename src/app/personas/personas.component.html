@@ -7,8 +7,9 @@
             (click)="personacrear()">Agregar</button>
             {{mensaje}}
             <app-persona></app-persona>
+            <label>Titulo persona: </label>
             <input type="text" class="form-control"
-            (input) = 'modificarTitulo($event)'>
+              [(ngModel)] = 'titulo'>
             {{titulo}}
         </div>
     </div>
