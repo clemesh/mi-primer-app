@@ -11,7 +11,9 @@ export class PersonasComponent  {
     mensaje = 'persona no añadida'
     deshabilitar = false;
     titulo = '';
+    mostrar = false;
     personacrear(){
+      this.mostrar = true;
       this.mensaje = 'persona añadida'
     }
     /**modificarTitulo(event: Event){
